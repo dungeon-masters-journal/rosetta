@@ -1,18 +1,13 @@
-# DMs Journal
-
-===
+# [DMs Journal](www.dmsjournal.blog)
 
 ## Rosetta
 
 ### Table of Contents
 
-- [DMs Journal](www.dmsjournal.blog)
-  - [Rosetta](#rosetta)
-    - [Table of Contents](#table-of-contents)
-    - [Buy me a coffee](#buy-me-a-coffee)
-    - [Introduction](#introduction)
-    - [Setup](#setup)
-    - [Using the Program](#using-the-program)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Setup](#setup)
+- [Using the Program](#using-the-program)
 
 ### Buy me a coffee
 

@@ -81,7 +81,7 @@ def main(input_file: str):
     for input_line in input_txt:
         line_counter +=1
         clean_line = clean_text(input_line)
-        converted_line = translate(clean_line, line_counter)
+        translate(clean_line, line_counter)
 
     merge_lines(line_counter)
 

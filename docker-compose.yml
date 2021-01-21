@@ -1,9 +1,18 @@
 version: "3.3"
 services:
-  translate:
+  rosetta:
     build: .
     restart: always
     command: bash -c "/bin/bash"
+    volumes:
+      - type: bind
+        source: .
+        target: /usr/local/src
+
+  translate:
+    build: . 
+    restart: always
+    command: bash -c "python translate.py"
     volumes:
       - type: bind
         source: .

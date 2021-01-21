@@ -4,6 +4,7 @@
 
 ![Cover Photo](.github/cover-photo.jpg)
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=DMs-Journal_rosetta)](https://sonarcloud.io/dashboard?id=DMs-Journal_rosetta)
 ### Table of Contents
 
 - [Table of Contents](#table-of-contents)

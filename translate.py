@@ -8,7 +8,7 @@ def clean_text(text_line: str) -> string:
 
     lower_case_str = text_line.lower()
     no_punc_str = lower_case_str.translate(str.maketrans('', '', string.punctuation))
-    no_emoji_str = deEmojify(no_punc_str)
+    no_emoji_str = remove_emojis(no_punc_str)
     no_url_str = re.sub(r'^https?:\/\/.*[\r\n]*', '', no_emoji_str, flags=re.MULTILINE)
     no_email_str = re.sub(r'\S*@\S*\s?', '', no_url_str)
     no_space_str = no_email_str.replace(" ", "")
@@ -16,7 +16,7 @@ def clean_text(text_line: str) -> string:
 
     return stripped_str
 
-def deEmojify(text: str) -> string:
+def remove_emojis(text: str) -> string:
     '''
     Removes Emoji characters
     https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python"

@@ -5,14 +5,13 @@
 ![Cover Photo](.github/cover-photo.jpg)
 
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=DMs-Journal_rosetta)](https://sonarcloud.io/dashboard?id=DMs-Journal_rosetta)
+
 ### Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Buy me a coffee](#buy-me-a-coffee)
 - [Introduction](#introduction)
 - [Setup](#setup)
 - [Using the Program](#using-the-program)
-- [Development](#development)
+
 
 ### Buy me a coffee
 
@@ -60,4 +59,4 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 If you'd like to request a new function, feel free to do so by opening an [issue here](https://github.com/DMs-Journal/rosetta/issues/new). Please include sample queries and their corresponding results.
 
 
-**[Art by 000Fesbra000](https://www.deviantart.com/000fesbra000/art/Seal-of-Exile-793666998)
+[Art by 000Fesbra000](https://www.deviantart.com/000fesbra000/art/Seal-of-Exile-793666998)
